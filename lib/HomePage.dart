@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fluttery_audio/fluttery_audio.dart';
+import 'package:music_player_final/Radio.dart';
 import 'package:music_player_final/Waves.dart';
 import 'package:music_player_final/localSongsList.dart';
 import 'package:music_player_final/onlineMusic.dart';
@@ -36,6 +37,17 @@ class _HomePageState extends State<HomePage> {
                 });
               },
             ),
+            new Container(width:50.0,),
+            new RaisedButton(onPressed: (){
+              setState(() {
+                var router = new MaterialPageRoute(builder:(BuildContext context)=>new RadioState());
+                Navigator.of(context).push(router);
+              });
+            },
+              child: new Text('Radio'),
+              color: Colors.red,
+              splashColor: Colors.blue,
+              elevation: 10.02,            )
           ],
         ),
 

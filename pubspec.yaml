@@ -21,6 +21,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   fluttery_audio: ^0.0.3
   flute_music_player: ^0.0.6
+  flutter_radio: ^0.1.0
 
 dev_dependencies:
   flutter_test:
