@@ -11,9 +11,9 @@ A Music Player Implemented in Flutter
 
 # Screenshots
 
-<image src = "images/Screenshot_20180902-112620.jpg" height="200" width="200">
+<image src = "images/Screenshot_20180902-112620.jpg" height="300" width="200">
 
-<image src = "images/Screenshot_20180905-141943.jpg" height ="200" width ="200">
+<image src = "images/Screenshot_20180905-141943.jpg" height ="300" width ="200">
 
 # Features Left To Be Implemented 
 
